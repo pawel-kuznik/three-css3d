@@ -11,7 +11,6 @@ export class CSS3DObject extends Object3D {
 
     this.element = element;
     this.element.style.position = 'absolute';
-    this.element.style.pointerEvents = 'auto';
 
     this.addEventListener('removed', () => {
       this.traverse((object: Object3D) => {
