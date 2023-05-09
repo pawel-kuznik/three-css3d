@@ -1,5 +1,12 @@
 import {Object3D} from 'three';
 
+/**
+ *  This is an implementation of a regular three.js Object3D that allows for embedding
+ *  a HTML element.
+ * 
+ *  Cause of how the CSS3D renderer works, the element passed to the constructor will
+ *  have the CSS position set to absolute.
+ */
 export class CSS3DObject extends Object3D {
   public element: HTMLElement;
 

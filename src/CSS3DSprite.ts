@@ -1,6 +1,9 @@
 import {Matrix4} from 'three';
 import {CSS3DObject} from './CSS3DObject';
 
+/**
+ *  @todo explain what a CSS3DSprite does.
+ */
 export class CSS3DSprite extends CSS3DObject {
   public spriteRatio: number;
   public spriteMatrixWorld: Matrix4;
