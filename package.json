@@ -1,9 +1,9 @@
 {
   "name": "@pawel-kuznik/three-css3d",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A typescript port of Three.js CSS3DRenderer, with small tweaks and enchancements.",
-  "main": "lib/index.js",
-  "types": "lib/src/index.d.ts",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"
